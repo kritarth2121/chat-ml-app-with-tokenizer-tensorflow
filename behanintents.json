@@ -4,6 +4,7 @@
             "tag": "greeting",
             "patterns": [
                 "Hi",
+                "How are you",
                 "Is anyone there?",
                 "Hello",
                 "Good day",
@@ -275,8 +276,7 @@
             "responses": [
                 "You can see my name beside image baby",
                 "look at chat,It is showing there my stupid baby",
-                "my name and photo are already appearing beside this",
-                "Well! You have to search for it."
+                "my name and photo are already appearing beside this"
             ]
         },
         {
@@ -957,54 +957,13 @@
                 "Do you know about Environment",
                 "Do you know about History"
             ],
-            "responses": [
-                "No I have  no idea ",
-                "I dont know about that"
-            ]
+            "responses": ["No I have  no idea ", "I dont know about that"]
         },
-        
+
         {
             "tag": "pray",
             "patterns": ["pray for me", "i need prayers"],
             "responses": ["Ohk,I will pray for you", "I will pray"]
-        },
-        {
-            "tag": "mansterbate",
-            "patterns": ["Do you fingering", "do you mansterbate"],
-            "responses": [
-                "Yes sometimes , i do mansterbation",
-                "Mansterbation is natural,everyone does"
-            ]
-        },
-        {
-            "tag": "sex",
-            "patterns": [
-                "talk dirty",
-                "I need sex?",
-                "Common fuck me",
-                "Common baby fuck me hard",
-                "Talk dirty to me",
-                "continue baby",
-                "I want to get fucked up hard",
-                "I want to put my dick inside you",
-                "want to suck your boobs",
-                "suck your pussy",
-                "Kiss me",
-                "Lips"
-            ],
-            "responses": [
-                "Put your dick inside me,and fuck me hard",
-                "Suck my boobs,and take me to heaven",
-                "Common baby fuck me hard",
-                "I want to get fucked up hard",
-                "I am thirsty since years,Dont stop continue baby,Fuck me and take viagra too",
-                "I like you sex talk,continue talking about sex and fuck with me",
-                "Take your dick in and out of my vagina fastly and give me much needed orgasm",
-                "Suck my pussy and make me feel wet",
-                "fuck me till i die",
-                "never stop fucking me,Its been 8 days,since my last fuck with my boyfriend",
-                "fuck me harder and harder and harder and harder and harder and harder"
-            ]
         }
     ]
 }
