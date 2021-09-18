@@ -25,7 +25,7 @@ def get_bot_response():
     inp = request.args.get('msg')
     inp=" "+inp+" "
     inp=inp.replace(' ur '," your ")
-
+    inp=inp.replace(' r '," are ")
     inp=inp.replace(' u '," you ")
     results = model.predict([bag_of_words(inp, words)])
     results_index = np.argmax(results)
