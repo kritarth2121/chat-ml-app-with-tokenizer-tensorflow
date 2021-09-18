@@ -1,5 +1,7 @@
 from chatbot import model,labels,bag_of_words,words,data
 import sys
+# import os
+# os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 # if sys.version_info.major < 3:
 #     reload(sys)
 # sys.setdefaultencoding('utf8')
