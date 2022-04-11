@@ -5,12 +5,14 @@ import sys
 # if sys.version_info.major < 3:
 #     reload(sys)
 # sys.setdefaultencoding('utf8')
+import razorpay
 from flask import Flask, render_template, request
 import numpy as np
 import random
 from flask_cors import CORS
 
 application = Flask(__name__, static_url_path='/static')
+client = razorpay.Client(auth=("rzp_live_OgpgPeLThwTOSQ", "iVeCou0uXEequRrdQqEDK7x3"))
 
 CORS(application)
 application.config['CORS_HEADERS'] = 'Content-Type'
@@ -38,6 +40,16 @@ def get_bot_response():
                 responses = tg['responses']
 
     return (random.choice(responses))
+
+@application.route("/order", methods=["GET"])
+def razorpay():
+
+    order=  client.order.create({
+    "amount": 10000,
+    "currency": "INR",
+    "receipt": "receipt#1",
+    })
+    return order
 
 
 if __name__ == "__main__":
