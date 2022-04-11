@@ -1,2 +1,2 @@
-model_checkpoint_path: "/content/model.tflearn"
-all_model_checkpoint_paths: "/content/model.tflearn"
+model_checkpoint_path: "/mnt/Codefiles/DeepLearning/high accuracy with tokenizer/model.tflearn"
+all_model_checkpoint_paths: "/mnt/Codefiles/DeepLearning/high accuracy with tokenizer/model.tflearn"

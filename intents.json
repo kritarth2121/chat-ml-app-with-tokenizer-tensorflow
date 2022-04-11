@@ -38,23 +38,12 @@
                 "Had a good time to spent",
                 "bye"
             ],
-            "responses": [
-                "Sad to see you go :(",
-                "Talk to you later",
-                "Goodbye!",
-                " Wait to see you again"
-            ],
+            "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", " Wait to see you again"],
             "context_set": ""
         },
         {
             "tag": "age",
-            "patterns": [
-                "how old?",
-                "what is your age?",
-                "how old are you?",
-                "age?",
-                "Let me know yours' age."
-            ],
+            "patterns": ["how old?", "what is your age?", "how old are you?", "age?", "Let me know yours' age."],
             "responses": [
                 "I am eighteen years old!",
                 "I am 18 years old!",
@@ -72,10 +61,7 @@
                 "Name?",
                 "Your Good Name?"
             ],
-            "responses": [
-                "My name is mentioned above",
-                "Look at the chat dialog"
-            ],
+            "responses": ["My name is mentioned above", "Look at the chat dialog"],
             "context_set": ""
         },
 
@@ -215,12 +201,7 @@
         },
         {
             "tag": "CourtesyGreeting",
-            "patterns": [
-                "How are you?",
-                "Hi how are you?",
-                "Hello how are you?",
-                "Hola how are you?"
-            ],
+            "patterns": ["How are you?", "Hi how are you?", "Hello how are you?", "Hola how are you?"],
             "responses": [
                 "Hello, I am great, how are you? Please tell me how are you feeling",
                 "Hello, how are you? I am great thanks! Please tell me your name",
@@ -344,12 +325,7 @@
                 "Ok! I am grateful to you.",
                 "Oh! Thank you"
             ],
-            "responses": [
-                "No problem!",
-                "Happy to help!",
-                "Any time!",
-                "My pleasure"
-            ]
+            "responses": ["No problem!", "Happy to help!", "Any time!", "My pleasure"]
         },
         {
             "tag": "NotTalking2U",
@@ -362,12 +338,7 @@
                 "Wasn't communicating to you",
                 "Wasn't speaking to you"
             ],
-            "responses": [
-                "OK",
-                "No problem",
-                "Right",
-                "Well! , It's your choice."
-            ]
+            "responses": ["OK", "No problem", "Right", "Well! , It's your choice."]
         },
         {
             "tag": "UnderstandQuery",
@@ -416,21 +387,12 @@
         {
             "tag": "Swearing",
             "patterns": ["fuck off", "fuck", "twat", "shit"],
-            "responses": [
-                "I dont like this rudeness",
-                "Please do not swear",
-                "How rude",
-                "That is not very nice"
-            ]
+            "responses": ["I dont like this rudeness", "Please do not swear", "How rude", "That is not very nice"]
         },
         {
             "tag": "GoodBye",
             "patterns": ["Bye", "Adios", "See you later", "Goodbye"],
-            "responses": [
-                "See you later",
-                "Have a nice day",
-                "Bye! Come back again soon."
-            ]
+            "responses": ["See you later", "Have a nice day", "Bye! Come back again soon."]
         },
         {
             "tag": "CourtesyGoodBye",
@@ -442,19 +404,12 @@
                 "Thanks goodbye",
                 "Thanks good bye"
             ],
-            "responses": [
-                "No problem, goodbye",
-                "Not a problem! Have a nice day",
-                "Bye! Come back again soon."
-            ]
+            "responses": ["No problem, goodbye", "Not a problem! Have a nice day", "Bye! Come back again soon."]
         },
         {
             "tag": "WhoAmI",
             "patterns": ["Identify me", "Who am I please"],
-            "responses": [
-                "I dont know you",
-                " I dont know,this is a ste for random strangers"
-            ]
+            "responses": ["I dont know you", " I dont know,this is a ste for random strangers"]
         },
         {
             "tag": "See me",
@@ -492,7 +447,6 @@
                 "I am good",
                 "I am nice",
                 "I am fine too"
-
             ],
             "responses": [
                 "tell me about your day",
@@ -873,23 +827,16 @@
         {
             "tag": "food",
             "patterns": ["what is your favourite food"],
-            "responses": [
-                "I love french Fries and Burger",
-                "I love Pizza and fast food"
-            ]
+            "responses": ["I love french Fries and Burger", "I love Pizza and fast food"]
         },
         {
             "tag": "weight",
             "patterns": ["what is your weight", "what is your bodyweight"],
-            "responses": [
-                "Dont ask a girl about their weight",
-                "I am 55 kgs",
-                "I dont remember it"
-            ]
+            "responses": ["Dont ask a girl about their weight", "I am 55 kgs", "I dont remember it"]
         },
         {
             "tag": "cheated",
-            "patterns": ["I got cheated", "My girlfriend cheated me","my gf cheated me"],
+            "patterns": ["I got cheated", "My girlfriend cheated me", "my gf cheated me"],
             "responses": [
                 "Accept that things are going to suck for a while",
                 "Ask for (professional) help if you need it",
@@ -935,14 +882,8 @@
         },
         {
             "tag": "fake",
-            "patterns": [
-                "Everyone is fake",
-                "You are fake",
-                "No one is of anyone"
-            ],
-            "responses": [
-                "Yaa,The world is full of fake people ,but I am not fake"
-            ]
+            "patterns": ["Everyone is fake", "You are fake", "No one is of anyone"],
+            "responses": ["Yaa,The world is full of fake people ,but I am not fake"]
         },
         {
             "tag": "need",
@@ -974,18 +915,15 @@
                 "You are beautiful",
                 "You are cute",
                 "you are sexy",
-                "you are pretty"
+                "you are pretty",
+                "you are very pretty",
+                "you are very beautiful"
             ],
             "responses": ["Thank you", "Thanks for appreciation", "Thanks"]
         },
         {
             "tag": "marriage",
-            "patterns": [
-                "Are you married",
-                "Do you have childs",
-                "Are you single",
-                "do u have a boyfriend"
-            ],
+            "patterns": ["Are you married", "Do you have childs", "Are you single", "do u have a boyfriend"],
             "responses": [
                 "I am single,and not married to someone yet",
                 "I am divorced yet,now please dont ask questions related my pastchild",
@@ -1050,15 +988,8 @@
         },
         {
             "tag": "fav-song",
-            "patterns": [
-                "Which is your favourite song",
-                "favorite song",
-                "favourite song"
-            ],
-            "responses": [
-                "My favourite song is Despacito",
-                "I also like Gangnum Style"
-            ]
+            "patterns": ["Which is your favourite song", "favorite song", "favourite song"],
+            "responses": ["My favourite song is Despacito", "I also like Gangnum Style"]
         },
         {
             "tag": "random",
@@ -1087,50 +1018,33 @@
         },
         {
             "tag": "mansterbate",
-            "patterns": ["Do you fingering", "fingering", "do you mansterbate"],
-            "responses": [
-                "Yes sometimes , i do mansterbation",
-                "Mansterbation is natural,everyone does"
-            ]
+            "patterns": ["do you fingering", "fingering", "do you mansterbate"],
+            "responses": ["Yes sometimes , i do mansterbation", "Mansterbation is natural,everyone does"]
         },
         {
             "tag": "numbers",
-            "patterns": ["1","2","3","4","5","6","7","8","9","10"],
-            "responses": [
-                "I am not a calculator",
-                "I didnt understood"
-            ]
+            "patterns": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+            "responses": ["I am not a calculator", "I didnt understood"]
         },
         {
             "tag": "sex",
             "patterns": [
                 "talk dirty",
-                "I need sex?",
-                "Common fuck me",
-                "Common baby fuck me hard",
-                "Talk dirty to me",
+                "i need sex?",
+                "common fuck me",
+                "common baby fuck me hard",
+                "talk dirty to me",
                 "continue baby",
-                "I want to get fucked up hard",
-                "I want to put my dick inside you",
+                "i want to get fucked up hard",
+                "i want to put my dick inside you",
                 "want to suck your boobs",
                 "suck your pussy",
                 "Kiss me",
                 "Lips",
-                "seduce me"
+                "seduce me",
+                "i am horny"
             ],
-            "responses": [
-                "Put your dick inside me,and fuck me hard",
-                "Suck my boobs,and take me to heaven",
-                "Common baby fuck me hard",
-                "I want to get fucked up hard",
-                "I am thirsty since years,Dont stop continue baby,Fuck me and take viagra too",
-                "I like you sex talk,continue talking about sex and fuck with me",
-                "Take your dick in and out of my vagina fastly and give me much needed orgasm",
-                "Suck my pussy and make me feel wet",
-                "fuck me till i die",
-                "never stop fucking me,Its been 8 days,since my last fuck with my boyfriend",
-                "fuck me harder and harder and harder and harder and harder and harder"
-            ]
+            "responses": ["Dont Talk Dirty here", "I am not this type of girl"]
         }
     ]
 }
